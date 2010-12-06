@@ -1,0 +1,5 @@
+python-lettuce (0.1.17+git20101204) UNRELEASED; urgency=low
+
+  * Initial release. (Closes: #587852)
+
+ -- Roger Gammans <rgammanes@gammascience.co.uk>  Mon, 06 Dec 2010 21:17:22 +0000

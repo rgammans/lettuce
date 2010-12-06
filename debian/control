@@ -1,0 +1,19 @@
+Source: python-lettuce 
+Section: python
+Priority: optional
+Maintainer: Roger Gammans <rgammans@computer-surgery.co.uk>
+Build-Depends: debhelper (>= 5.0.38), cdbs, python-dev (>= 2.4) , python-support (>= 0.5.3)
+Standards-Version: 3.6.1.1
+
+Package: python-lettuce
+Architecture: all
+Depends: ${python:Depends}, python (>= 2.4),
+XB-Python-Version: ${python:Versions}
+Description: Python BDD toolkit and test framework.
+ Lettuce is a very simple BDD tool based on the Cucumber, which 
+ currently has many more features than Lettuce.
+ .
+ Lettuce aims the most common tasks on BDD and it focus specially 
+ on those that make BDD so fun
+ .
+ Homepage: http://lettuce.it
